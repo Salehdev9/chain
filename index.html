@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="./chain.css">
+  <link rel="stylesheet" href="./bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./chain-responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>Chain</title>
+</head>
+
+<body>
+  <main>
+    <!-- First container -->
+    <div class="container-fluid" id="first-container">
+      <div class="row">
+        <div class="col-xl-5 col-lg-2 col-md-2 col-sm offset-lg-1 logo-container">
+          <img id="logo" src="./chain-imgs/logo.png" alt="Logo">
+        </div>
+
+        <div class="col col-xl-6 col-lg-9 col-md-10 col-sm-10 navbar">
+          <nav>
+            <ul>
+              <a href="#second-container">
+                <li>Home</li>
+              </a>
+              <a href="#third-container">
+                <li>Services</li>
+              </a>
+              <a href="#fourth-container">
+                <li>About</li>
+              </a>
+              <a href="#eighth-container">
+                <li>Pricing</li>
+              </a>
+              <a href="#footer">
+                <li>Newsletter</li>
+              </a>
+              <a href="#" id="sign-in-now-btn">
+                
+                  <i style='font-size:14px' class='fas fa-sign-in-alt'></i>
+                    Sign In Now
+                
+              </a>
+            </ul>
+          </nav>
+        </div>
+
+        
+        <!-- Hamburger Menu -->
+        <div class="menu-container">
+          <img id="menu-img" src="./chain-imgs/588a6507d06f6719692a2d15.png" alt="Hamburger Menu Icon" onclick="hamburgerMenuOn()">
+          <img id="close-img" src="./chain-imgs/close.png" alt="Close Menu Icon" onclick="hamburgerMenuOff()">
+         </div>
+      </div>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <div id="hamburger-menu-list">
+        <ul>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>Services</li>
+          </a>
+          <a href="#">
+            <li>About</li>
+          </a>
+          <a href="#">
+            <li>Pricing</li>
+          </a>
+          <a href="#">
+            <li>Newsletter</li>
+          </a>
+          <a href="#">
+            <li><i style='font-size:14px' class='fas fa-sign-in-alt'></i>
+              Sign In Now</li>
+          </a>
+        </ul>
+    </div>
+
+
+    <!-- Second Container -->
+    <div class="container" id="second-container">
+      <div class="row">
+        <div class="col col-lg col-md">
+          <h1 class="col-lg-12 col-md">
+            Get The Latest App From
+            App Stores
+          </h1>
+
+          <p id="first-container-p">
+            Chain App Dev is an app landing page HTML5 template based on Bootstrap v5.1.3 CSS layout provided by
+            TemplateMo
+          </p>
+
+          <div class="free-btns">
+            <a href="#" class="free-quote-btns">
+              <button id="free-quote1">
+                <i class="fab fa-apple"></i>
+                Free Quote
+              </button>
+            </a>
+
+            <a href="#" class="free-quote-btns">
+              <button id="free-quote2">
+                Free Quote
+                <i class="fab fa-google-play"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <img src="./chain-imgs/second-container-bg-img2.png" alt="Background image" id="second-container-bg-img2">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Third Container -->
+    <div class="container-fluid" id="third-container">
+      <div class="row" id="third-container-first-row">
+        <div class="col">
+          <h2>
+            Amazing <span style="color: rgb(75, 142, 241);">Services & Features</span> For You
+          </h2>
+          <img src="./chain-imgs/heading-line-dec.png" alt="Heading Image" id="heading-img">
+          <p id="if-you-need">
+            If you need the greatest collection of HTML templates for your business, please visit <span
+              style="color: rgb(75, 142, 241);">TooCSS</span> Blog. If you need to have a contact form PHP script, go to
+            <span style="color: rgb(75, 142, 241);">our contact page</span> for more information.
+          </p>
+        </div>
+      </div>
+
+      <div class="container" id="third-container-second-row">
+        <div class="row">
+          <div class="col-md-12 col-lg cards" id="first-card" onmouseenter="cardsBg()" onmouseleave="cardsBg2()">
+            <img id="maintenance-icon" src="./chain-imgs/service-icon-01.png" alt="Maintenance Icon">
+            <h5 id="card1h5">
+              App Maintenance
+            </h5>
+            <p id="card1p">
+              You are not allowed to redistribute this template ZIP file on any other website.
+            </p>
+            <a id="card1a" href="#">
+              Read More <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-md-12 col-lg cards" id="second-card" onmouseenter="cardsBg3()" onmouseleave="cardsBg4()">
+            <img id="rocket-icon" src="./chain-imgs/service-icon-02.png" alt="Rocket Icon">
+            <h5 id="card2h5">
+              Rocket Speed of App
+            </h5>
+            <p id="card2p">
+              You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.
+            </p>
+            <a id="card2a" href="#">
+              Read More <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-md-12 col-lg cards" id="third-card" onmouseenter="cardsBg5()" onmouseleave="cardsBg6()">
+            <img id="workflow-icon" src="./chain-imgs/service-icon-03.png" alt="Workflow Icon">
+            <h5 id="card3h5">
+              Multi Workflow Idea
+            </h5>
+            <p id="card3p">
+              If this template is beneficial for your work, please support us
+            </p>
+            <a id="card3a" href="#">
+              Read More <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-md-12 col-lg cards" id="fourth-card" onmouseenter="cardsBg7()" onmouseleave="cardsBg8()">
+            <img id="help-icon" src="./chain-imgs/service-icon-04.png" alt="Help Icon">
+            <h5 id="card4h5">
+              24/7 Help & Support
+            </h5>
+            <p id="card4p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit deserunt id provident blanditiis
+              excepturi.
+            </p>
+            <a id="card4a" href="#">
+              Read More <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Background Image Container -->
+    <div class="container" id="bg-img-container"></div>
+
+
+
+    <!-- Fourth container -->
+    <div class="container" id="fourth-container">
+      <div class="row">
+        <div class="col col-md" id="fourth-container-first-col">
+          <h3>
+            About <span style="color: rgb(75, 142, 241);">What We Do</span> & Who We Are
+          </h3>
+          <img src="./chain-imgs/heading-line-dec.png" alt="Heading Image" id="heading-img">
+          <p id="third-container-first-lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore
+            magna.
+          </p>
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg third-container-tubes">
+                <h5>Maintenance Problems</h5>
+                <p>Lorem Ipsum Text</p>
+              </div>
+
+              <div class="col-lg third-container-tubes">
+                <h5>24/7 Support & Help</h5>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg third-container-tubes">
+                <h5>Fixing Issues About</h5>
+                <p>Lorem Ipsum Text</p>
+              </div>
+
+              <div class="col-lg third-container-tubes">
+                <h5>Co.Development</h5>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+          </div>
+
+          <p id="third-container-second-lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore
+            adipiscing magna.
+          </p>
+
+          <a href="#" id="fourteen-day-trial">
+            Start 14-Day Free Trial
+          </a>
+
+          <p id="no-crdit-card">
+            <span style="color: red;">*</span>No Credit Card Required
+          </p>
+
+        </div>
+
+        <div class="col col-md" id="about-right-container">
+          <img src="./chain-imgs/about-right-dec.png" alt="Graphics image about technology">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Fifth Container -->
+    <div class="container" id="fifth-container">
+      <div class="row">
+        <div class="col col-md" id="fifth-container-first-col">
+          <h3 id="check-what-the-client">
+            Check What <span style="color: rgb(75, 142, 241);">The Clients Say</span> About Our App Dev
+          </h3>
+
+          <img id="fifth-container-img" src="./chain-imgs/heading-line-dec.png" alt="Design image">
+
+          <p id="fifth-container-lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore
+            magna.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sixth Container -->
+
+    <div class="container" id="sixth-container">
+      <div class="row">
+        <div class="col-md-12 col-lg">
+          <div class="row profile-container" id="profile-container1" onclick="profileHover0()">
+            <div class="col-md col-lg">
+              <h5 class="profile-name" id="profile-name1">
+                David Martino Co
+              </h5>
+
+              <p class="profile-date" id="profile-date1">
+                30 November 2021
+              </p>
+            </div>
+            <div class="col-md col-lg">
+              <h6 class="profile-center">
+                Financial Apps
+              </h6>
+            </div>
+            <div class="col-md">
+              <p class="profile-rating" id="profile-rating1">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 4.8
+              </p>
+            </div>
+          </div>
+
+          <div class="row profile-container" id="profile-container2" onclick="profileHover1()">
+            <div class="col-md col-lg">
+              <h5 class="profile-name" id="profile-name2">
+                Jake Harris Nyo
+              </h5>
+
+              <p class="profile-date" id="profile-date2">
+                29 November 2021
+              </p>
+            </div>
+            <div class="col-md col-lg">
+              <h6 class="profile-center">
+                Digital Business
+              </h6>
+            </div>
+            <div class="col-md col-lg">
+              <p class="profile-rating" id="profile-rating2">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 4.5
+              </p>
+            </div>
+          </div>
+
+          <div class="row profile-container" id="profile-container3" onclick="profileHover3()">
+            <div class="col-md col-lg">
+              <h5 class="profile-name" id="profile-name3">
+                May Catherina
+              </h5>
+
+              <p class="profile-date" id="profile-date3">
+                27 November 2021
+              </p>
+            </div>
+            <div class="col-md col-lg">
+              <h6 class="profile-center">
+                Business & Economics
+              </h6>
+            </div>
+            <div class="col-md col-lg">
+              <p class="profile-rating" id="profile-rating3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 4.7
+              </p>
+            </div>
+          </div>
+
+          <div class="row profile-container" id="profile-container4" onclick="profileHover5()">
+            <div class="col-md col-lg">
+              <h5 class="profile-name" id="profile-name4">
+                Random User
+              </h5>
+
+              <p class="profile-date" id="profile-date4">
+                24 November 2021
+              </p>
+            </div>
+            <div class="col-md col-lg">
+              <h6 class="profile-center">
+                New App Ecosystem
+              </h6>
+            </div>
+            <div class="col-md col-lg">
+              <p class="profile-rating" id="profile-rating4">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 3.9
+              </p>
+            </div>
+          </div>
+
+          <div class="row profile-container" id="profile-container5" onclick="profileHover7()">
+            <div class="col-md col-lg">
+              <h5 class="profile-name" id="profile-name5">
+                Mark Amber Do
+              </h5>
+
+              <p class="profile-date" id="profile-date5">
+                21 November 2021
+              </p>
+            </div>
+            <div class="col-md col-lg">
+              <h6 class="profile-center">
+                Web Development
+              </h6>
+            </div>
+            <div class="col-md col-lg">
+              <p class="profile-rating" id="profile-rating5">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 4.3
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg">
+          <div class="container" id="about-section-right-container">
+            <img src="./chain-imgs/quote.png" alt="Quote icon">
+            <p id="right-container-p">
+              “Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore
+              magna aliqua darwin kengan lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”
+            </p>
+          </div>
+          <div class="container" id="about-section-bottom-container">
+            <div class="row">
+              <div class="col">
+                <img src="./chain-imgs/client-image.jpg" alt="Client Image">
+              </div>
+              <div class="col">
+                <h4 id="customer-name">David Martino</h4>
+                <p id="customer-post">CEO of David Company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Seventh Container -->
+    <div class="container" id="seventh-conatiner">
+      <div class="row">
+        <div class="col">
+          <h3 id="we-have-best">
+            We Have The Best Pre-Order Prices You Can Get
+          </h3>
+          <img id="seventh-conatiner-img" src="./chain-imgs/heading-line-dec.png" alt="Designing Image">
+          <p id="seventh-conatiner-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore
+            magna.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Eighth Container -->
+     <div class="container" id="eighth-container">
+      <div class="row">
+        <div class="col-md-12 col-lg app-cards" id="first-app-card">
+          <img class="table-bg-img1" src="./chain-imgs/regular-table-top.png" alt="Background Image">
+          <img class="table-bg-img2" src="./chain-imgs/regular-table-bottom.png" alt="Background Image">
+          <h3 class ="price-tag">
+            $12
+          </h3>
+
+          <h4 class="standard-plan-app">
+            Standard Plan App
+          </h4>
+
+          <img class="pricing-img" src="./chain-imgs/pricing-table-01.png" alt="Pricing Icon">
+          
+          <ul>
+            <li style="color: rgb(75, 142, 241);">
+              Lorem Ipsum Dolores
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              20 TB of Storage
+            </li>
+            <li style="color: gray; text-decoration: line-through;">
+              Life-time Support
+            </li>
+            <li style="color: gray; text-decoration: line-through;">
+              Premium Add-Ons
+            </li>
+            <li style="color: gray; text-decoration: line-through;">
+              Fastest Network
+            </li>
+            <li style="color: gray; text-decoration: line-through;">
+              More Options
+            </li>
+          </ul>
+
+          <a href="#" class="purchase-this-plan-now">
+            Purchase This Plan Now
+          </a>
+        </div>
+
+        <div class="col-md-12 col-lg app-cards" id="second-app-card">
+          <img class="table-bg-img1" src="./chain-imgs/pro-table-top.png" alt="Background Image">
+          <img class="table-bg-img2" id="center-table-btm-img" src="./chain-imgs/pro-table-bottom.png" alt="Background Image">
+          <h3 class ="price-tag">
+            $25
+          </h3>
+
+          <h4 class="standard-plan-app">
+            Business Plan App
+          </h4>
+
+          <img class="pricing-img" src="./chain-imgs/pricing-table-01.png" alt="Pricing Icon">
+          
+          <ul>
+            <li style="color: rgb(75, 142, 241);">
+              Lorem Ipsum Dolores
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              20 TB of Storage
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              Life-time Support
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              Premium Add-Ons
+            </li>
+            <li style="color: gray; text-decoration: line-through;">
+              Fastest Network
+            </li>
+            <li style="color: gray; text-decoration: line-through;">
+              More Options
+            </li>
+          </ul>
+
+          <a href="#" class="purchase-this-plan-now">
+            Purchase This Plan Now
+          </a>
+        </div>
+
+        <div class="col-md-12 col-lg app-cards" id="third-app-card">
+          <img class="table-bg-img1" src="./chain-imgs/regular-table-top.png" alt="Background Image">
+          <img class="table-bg-img2" src="./chain-imgs/regular-table-bottom.png" alt="Background Image">
+          <h3 class ="price-tag">
+            $66
+          </h3>
+
+          <h4 class="standard-plan-app">
+            Premium Plan App
+          </h4>
+
+          <img class="pricing-img" src="./chain-imgs/pricing-table-01.png" alt="Pricing Icon">
+          
+          <ul class="app-list">
+            <li style="color: rgb(75, 142, 241);">
+              Lorem Ipsum Dolores
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              20 TB of Storage
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              Life-time Support
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              Premium Add-Ons
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              Fastest Network
+            </li>
+            <li style="color: rgb(75, 142, 241);">
+              More Options
+            </li>
+          </ul>
+
+          <a href="#" class="purchase-this-plan-now">
+            Purchase This Plan Now
+          </a>
+        </div>
+      </div>
+     </div>
+  </main>
+
+
+  <!-- Footer Section -->
+   <div class="container-fluid" id="footer">
+    <div class="row">
+      <div class="col" id="footer-top-section">
+        <h2>
+          Join Our Mailing List To Receive The News & Latest Trends
+        </h2>
+        <input type="email" id="email" placeholder="Email Address...">
+        <button id="subscribe-btn">
+          Subscribe Now <span style="font-weight: 700;">></span>
+        </button>
+      </div>
+      <div class="container" id="footer-bottom-section">
+        <div class="row">
+          <div class="col-md-12 col-lg">
+            <h5>
+              Contact Us
+            </h5>
+            
+            <p>
+              Rio de Janeiro - RJ, 22795-008, Brazil
+            </p>
+
+            <p>
+              010-020-0340
+            </p>
+
+            <p>
+              info@company.co
+            </p>
+          </div>
+
+          <div class="col-md-12 col-lg">
+            <h5>
+              About Us
+            </h5>
+            <ul><a href="#"><li>Home</li></a></ul>
+            <ul><a href="#"><li>Services</li></a></ul>
+            <ul><a href="#"><li>About</li></a></ul>
+            <ul><a href="#"><li>Testimonials</li></a></ul>
+            <ul><a href="#"><li>Pricing</li></a></ul>
+          </div>
+
+          <div class="col-md-12 col-lg">
+            <h5>
+              Useful Links
+            </h5>
+
+            
+              <ul><a href="#"><li>Free Apps</li></a></ul>
+              <ul><a href="#"><li>App Engine</li></a></ul>
+              <ul><a href="#"><li>Programming</li></a></ul>
+              <ul><a href="#"><li>Development</li></a></ul>
+              <ul><a href="#"><li>App News</li></a></ul>
+          </div>
+
+          <div class="col-md-12 col-lg">
+            <h5>
+              About Our Company
+            </h5>
+
+            <img id="white-logo" src="./chain-imgs/white-logo.png" alt="Logo">
+
+            <p id="footer-last-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="./chain.js"></script>
+</body>
+
+</html>
