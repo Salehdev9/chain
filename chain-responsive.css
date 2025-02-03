@@ -122,6 +122,11 @@
     width: 500px;
   }
 
+  .navbar ul li{
+    font-size: 14px;
+    border: 2px solid red;
+  }
+
   #second-container{
     background-image: none;
     padding-top: 250px !important;
